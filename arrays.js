@@ -43,4 +43,3 @@ function removeElementFromEndOfArray(array) {
   var chocBars = array.slice(-1)
   return chocBars
 }
-
