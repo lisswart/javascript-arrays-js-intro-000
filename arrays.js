@@ -14,3 +14,8 @@ function addElementToEndOfArray(array, element) {
   var chocBars = [...chocolateBars, element]
   return chocBars
 }
+
+function destructivelyAddElementToEndOfArray(array, element) {
+  array.push(element)
+  return array
+}
